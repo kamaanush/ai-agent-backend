@@ -1,0 +1,26 @@
+# Core framework
+fastapi
+
+# ASGI server to run FastAPI
+uvicorn
+
+# For making HTTP requests to Ollama or external APIs
+requests
+
+# For environment variables (.env)
+python-dotenv
+
+# For defining and validating data models
+pydantic
+
+# For handling Server-Sent Events (SSE)
+sse-starlette
+
+# If you use Ollama’s local API integration
+ollama
+
+# Optional but useful for async features
+aiohttp
+
+# (Optional) For handling CORS between Angular and FastAPI
+fastapi[all]
